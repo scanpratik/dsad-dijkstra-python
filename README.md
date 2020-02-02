@@ -1,20 +1,20 @@
 # dse-dsad-grp126-work2
 M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
-#need to clarify from facukty for name as assingment1 as it should be 2
-Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip 
-
-designPS6_<group id>.docx detailing your algorithm design and time complexity of the algorithm.
-
-Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions for the employee node, binary tree and the main body of the program.
-
-inputPS6.txt file used for testing
+#Deliverables Checklist
+##need to clarify from facukty for name as assingment1 as it should be 2
+*Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip 
+*designPS6_GROUP126.docx detailing your algorithm design and time complexity of the algorithm.
+*Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions for the employee node, binary tree and the main body of the program.
+*inputPS6.txt file used for testing
 
 outputPS6.txt file generated while testing
 
-Developer :
+##Developers :
 
-Anand R K , Kamran Ali , Pratik Prakash
+*Anand R K
+*Kamran Ali
+*Pratik Prakash
 
 | Priority Order  | Feature |Owner |Reviewer |Status|
 | ------------- | ------------- |------------- |------------- |------------- |
