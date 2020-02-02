@@ -2,7 +2,7 @@
 M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
 # Deliverables Checklist
-## need to clarify from facukty for name as assingment1 as it should be 2
+## need to clarify from faculty for name as assingment1 as it should be 2
 1. Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip 
 2. designPS6_GROUP126.docx detailing your algorithm design and time complexity of the algorithm.
 3. Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions for the employee node, binary tree and the main body of the program.
@@ -16,21 +16,11 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
 | Priority Order  | Feature |Owner |Reviewer |Status|
 | ------------- | ------------- |------------- |------------- |------------- |
-| 1  | Binary Tree ADT Creation and Abstract Operation  |Pratik  |Kamran  | Done |
-| 1  | Sample Test & Inout file creation  |Anand  |Pratik  |-  |
-| 4  | Complexity Analysis  |Kamran  |Anand  |-  |
-| 2  | Add def readPrompts(path) to read inputs from promptsPS6.txt  | Kamran  | Corrected for reading file with blank space in between | Done |
-| 2  | def _readBookList(self, bkID, availCount)  |Pratik  |Anand  | Done  |
-| 2  | def_chkInChkOut(self, bkID, inOut):   |kamran  |  | Done  |
-| 2  | def _getTopBooks(self, bkNode):  |Kamran  |Pratik  | In Progress  |
-| 3  | def _notIssued(self, bkNode)  |Pratik  |Kamran  | Done |
-| 3  | def _findBook(self, eNode, bkID)   |Anand  |Pratik  |-  |
-| 3  | def _stockOut(self, eNode)   |Kamran  |Anand  | Done  |
-| 4  | def printBooks(self, bkNode)  |Pratik  |Kamran  |Done |
-| -  | Deliverable preparation  |Anand  |Kamran  |-  |
-| -  | Final Review and Submission |Kamran  |Pratik  |-  |
-
-
+| 2  | Add def read_input_file(path) to read inputs from inputPS6.txt  | Kamran  |
+| -  | Complexity Analysis  |  |  |
+| -  | Deliverable preparation  |  |  |
+| -  | Final Review and Submission |  |  |
 
 ## For calling the script use below code :
 --TODO
+AS2_PS6_HE_G126.py
