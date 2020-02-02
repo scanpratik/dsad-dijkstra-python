@@ -1,10 +1,9 @@
-# dse-dsad-assigment126
-M Tech - DSE DSAD assignment 126 for SEM1
+# dse-dsad-grp126-work2
+M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
-Assingment Submission name :  ASSIGNMENT1_DLH_B1_DSAD_GROUP126.zip 
+Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip #need to clarify from facukty for name as assingment1 as it should be 2
 
-
-Python script name : A1_PS6_LB_DSAD_GROUP126.py 
+Python script name : AS2_PS6_HE_GROUP126.py
 
 Developer :
 
