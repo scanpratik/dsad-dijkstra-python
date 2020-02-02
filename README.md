@@ -12,9 +12,9 @@ outputPS6.txt file generated while testing
 
 ##Developers :
 
-*Anand R K
-*Kamran Ali
-*Pratik Prakash
+- Anand R K
+- Kamran Ali
+- Pratik Prakash
 
 | Priority Order  | Feature |Owner |Reviewer |Status|
 | ------------- | ------------- |------------- |------------- |------------- |
