@@ -1,7 +1,8 @@
 # dse-dsad-grp126-work2
 M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
-Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip #need to clarify from facukty for name as assingment1 as it should be 2
+--#need to clarify from facukty for name as assingment1 as it should be 2
+Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip 
 
 Python script name : AS2_PS6_HE_GROUP126.py
 
