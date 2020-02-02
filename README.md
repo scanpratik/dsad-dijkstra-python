@@ -4,7 +4,10 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 #need to clarify from facukty for name as assingment1 as it should be 2
 Assingment Submission name :  ASSIGNMENT1_DLH_G126.zip 
 
-Python script name : AS2_PS6_HE_GROUP126.py
+Word document designPS6_<group id>.docx detailing your algorithm design and time complexity of the algorithm.
+• Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions for the employee node, binary tree and the main body of the program.
+• inputPS6.txt file used for testing
+• outputPS6.txt file generated while testing
 
 Developer :
 
@@ -25,8 +28,6 @@ Anand R K , Kamran Ali , Pratik Prakash
 | 4  | def printBooks(self, bkNode)  |Pratik  |Kamran  |Done |
 | -  | Deliverable preparation  |Anand  |Kamran  |-  |
 | -  | Final Review and Submission |Kamran  |Pratik  |-  |
-
-
 
 
 
