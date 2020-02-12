@@ -11,15 +11,15 @@ def print_arr(dist, n):
 
 def print_src_dest(dist, src, dest, parent, vertices_map):
     vertices_map_invert = {v: k for k, v in vertices_map.items()}
-    print("\nVertex \t\tDistance from Source\tPath")
-    print("\n%d --> %d \t\t%d \t\t\t\t\t" % (src, dest, dist[dest]), end="")
-    printPath(parent, dest)
-    print()
-    print("\n%s --> %s \t\t%d \t\t\t\t\t" % (vertices_map_invert[int(src)], vertices_map_invert[int(dest)], dist[dest]), end="")
+    # print("\nVertex \t\tDistance from Source\tPath")
+    # print("\n%d --> %d \t\t%d \t\t\t\t\t" % (src, dest, dist[dest]), end="")
+    # printPath(parent, dest)
+    # print()
+    # print("\n%s --> %s \t\t%d \t\t\t\t\t" % (vertices_map_invert[int(src)], vertices_map_invert[int(dest)], dist[dest]), end="")
     path_list = []
     printPathString(parent, dest, vertices_map_invert, path_list)
     print()
-    print(path_list)
+    print()
     print(f"Shortest route from the hospital '{vertices_map_invert[int(src)]}' to reach the airport '{vertices_map_invert[int(dest)]}' is {path_list} and it has minimum travel distance {dist[dest]}km")
 
 
@@ -46,11 +46,11 @@ def printPathString(parent, j, vertices_map_invert, path_list):
 
     # Base Case : If j is source
     if parent[j] == -1:
-        print(vertices_map_invert[int(j)], end=",")
+        # print(vertices_map_invert[int(j)], end=",")
         path_list.append(vertices_map_invert[int(j)])
         return
     printPathString(parent, parent[j], vertices_map_invert, path_list)
-    print(vertices_map_invert[int(j)], end=",")
+    # print(vertices_map_invert[int(j)], end=",")
     path_list.append(vertices_map_invert[int(j)])
 
 
