@@ -20,8 +20,8 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 | 1 | Reading input from inputPS6.txt to form that weighted graph  |  Kamran| Pratik |
 | 1 | Printing shortest Path from created weighted graph - on outputPS6.txt | Pratik | Kamran |
 | 2 | Time Taken to reach on an avg speed on outputPS6.txt | Pratik |  Kamran |
-| 2 | Design document - detailing algo design and time complexity | Anand | Kamran |
-| 3 | Deliverable preparation | Anand | Kamran  |
+| 2 | Design document - detailing algo design and time complexity | Anand | Pratik |
+| 3 | Deliverable preparation | Anand | Pratik  |
 | 3 | Final Review and Submission | Pratik | Kamran  |
 
 ## For calling the script use below code :
