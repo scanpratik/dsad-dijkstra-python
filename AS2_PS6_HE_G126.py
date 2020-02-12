@@ -83,8 +83,7 @@ graph = Graph(len(vertices))
 for src, dest, w in edges:
     graph.addEdge(int(src), int(dest), int(w))
 
-graph.dijkstra(int(hospital))
-
+graph.dijkstra(int(hospital), int(airport), vertices_map)
 
 
 # graph.addEdge(0, 1, 4)
