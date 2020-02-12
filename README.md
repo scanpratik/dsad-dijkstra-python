@@ -16,13 +16,13 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 
 | Priority Order  | Feature |Owner |Reviewer |Status|
 | ------------- | ------------- |------------- |------------- |------------- |
-| 2  | Add def read_input_file(path) to read inputs from inputPS6.txt  | Kamran  |
-| 1 | Reading input from inputPS6.txt to form that weighted graph  |  Pratik|  |
-| 1 | Printing shortest Path from created weighted graph - on outputPS6.txt | Pratik |  |
-| 2 | Time Taken to reach on an avg speed on outputPS6.txt | Kamran |  |
-| 2 | Design document - detailing algo design and time complexity | Ananad |  |
-| 3 | Deliverable preparation | Ananad |  |
-| 3 | Final Review and Submission | Kamran |  |
+| 2  | Add def read_input_file(path) to read inputs from inputPS6.txt  | Kamran  | Pratik |
+| 1 | Reading input from inputPS6.txt to form that weighted graph  |  Pratik| Kamran |
+| 1 | Printing shortest Path from created weighted graph - on outputPS6.txt | Pratik | Kamran |
+| 2 | Time Taken to reach on an avg speed on outputPS6.txt | Kamran |  Anand|
+| 2 | Design document - detailing algo design and time complexity | Ananad | Kamran |
+| 3 | Deliverable preparation | Ananad | Kamran  |
+| 3 | Final Review and Submission | Kamran | Pratik  |
 
 ## For calling the script use below code :
 --TODO
