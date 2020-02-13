@@ -28,4 +28,4 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 AS2_PS6_HE_G126.py
 
 ## Zip - AS2_PS6_HE_G126.zip
-extract it and run script AS2_PS6_HE_G126.py with all files including output.txt and input.txt at same level /9 same folder after extracting .zip script
+extract it and run script AS2_PS6_HE_G126.py with all files including output.txt and input.txt at level (same folder) after extracting .zip script
