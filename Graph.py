@@ -1,26 +1,33 @@
-from collections import defaultdict
-from Heap import Heap
 import sys
+from collections import defaultdict
+
+from Heap import Heap
+
+# speed of travel in minutes
+speed = 60 / 80
+out_file = "./outputPS6.txt"
 
 
+# A utility for debugging purpose to track path traversed
 def print_arr(dist, n):
     print("Vertex\tDistance from source")
     for i in range(n):
         print("%d\t\t%d" % (i, dist[i]))
 
 
+# writing to outfile with result
 def print_src_dest(dist, src, dest, parent, vertices_map):
     vertices_map_invert = {v: k for k, v in vertices_map.items()}
-    # print("\nVertex \t\tDistance from Source\tPath")
-    # print("\n%d --> %d \t\t%d \t\t\t\t\t" % (src, dest, dist[dest]), end="")
-    # printPath(parent, dest)
-    # print()
-    # print("\n%s --> %s \t\t%d \t\t\t\t\t" % (vertices_map_invert[int(src)], vertices_map_invert[int(dest)], dist[dest]), end="")
     path_list = []
     printPathString(parent, dest, vertices_map_invert, path_list)
-    print()
-    print()
-    print(f"Shortest route from the hospital '{vertices_map_invert[int(src)]}' to reach the airport '{vertices_map_invert[int(dest)]}' is {path_list} and it has minimum travel distance {dist[dest]}km")
+    time_to_travel = dist[dest] * speed
+    # writing result to output.txt file for shartest path, distance, time
+    with open(out_file, 'w') as file:
+        file.writelines(
+            f"Shortest route from the hospital '{vertices_map_invert[int(src)]}' to reach the airport '{vertices_map_invert[int(dest)]}' is {path_list} "
+            f"and it has minimum travel distance {dist[dest]} km\n")
+        file.writelines(
+            f"it will take {'{:.2f}'.format(time_to_travel)} minutes for the ambulance to reach the airport.")
 
 
 # A utility function to print the constructed distance array
@@ -33,17 +40,14 @@ def printSolution(src, dist, parent):
 
 # Function to print shortest path from source to j using parent array
 def printPath(parent, j):
-
     # Base Case : If j is source
     if parent[j] == -1:
         print(j, end=",")
         return
     printPath(parent, parent[j])
-    print(j, end=",")
 
 
 def printPathString(parent, j, vertices_map_invert, path_list):
-
     # Base Case : If j is source
     if parent[j] == -1:
         # print(vertices_map_invert[int(j)], end=",")

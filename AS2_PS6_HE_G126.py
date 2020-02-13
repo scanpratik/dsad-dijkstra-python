@@ -1,3 +1,4 @@
+# python script for deliverable AS2_PS6_HE_GROUP126.py package folder containing all the modules classes and functions
 """
 References
 - https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/
@@ -7,6 +8,7 @@ References
 
 """
 import sys
+
 from Graph import Graph
 
 vertices = set()
@@ -17,6 +19,7 @@ hospital = sys.maxsize
 airport = sys.maxsize
 
 
+# mapping vertices with alphabet to number
 def create_mapping(vertex):
     global counter
     vertices.add(vertex)
@@ -24,6 +27,7 @@ def create_mapping(vertex):
     counter = counter + 1
 
 
+# reading input.txt file for V & E , distance info along with source and destination
 def read_input_file(path):
     global hospital
     global airport
@@ -52,13 +56,22 @@ def read_input_file(path):
             edges.append((vertices_map[src], vertices_map[dest], w))
 
 
+# reading inout file for V and E to create weighted graph used in traversal
 read_input_file("inputPS6.txt")
+
+# graph creation with input V & E
+graph = Graph(len(vertices))
+for src, dest, w in edges:
+    graph.addEdge(int(src), int(dest), int(w))
+
+graph.dijkstra(int(hospital), int(airport), vertices_map)
 
 print(edges)
 print(vertices_map)
 print(vertices)
 print(hospital)
 print(airport)
+# sample example for testing and debugging
 
 """
 0 - a, 1 - b, 2 - c, 3 - d, 4 - e, 5 - f, 6 - g, 7 - h, 8 - i
@@ -79,14 +92,6 @@ g / i / 6
 h / i / 7
 
 """
-
-graph = Graph(len(vertices))
-
-for src, dest, w in edges:
-    graph.addEdge(int(src), int(dest), int(w))
-
-graph.dijkstra(int(hospital), int(airport), vertices_map)
-
 
 # graph.addEdge(0, 1, 4)
 # graph.addEdge(0, 7, 8)
