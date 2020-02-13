@@ -18,7 +18,7 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 | ------------- | ------------- |------------- |------------- |------------- |
 | 1  | Add def read_input_file(path) to read inputs from inputPS6.txt  | Kamran  | Pratik | DONE |
 | 1 | Reading input from inputPS6.txt to form that weighted graph  |  Kamran| Pratik | DONE |
-| 1 | Printing shortest Path from created weighted graph - on outputPS6.txt | Kamran | Kamran | 95% |
+| 1 | Printing shortest Path from created weighted graph - on outputPS6.txt | Kamran | Kamran | Done |
 | 2 | Time Taken to reach on an avg speed on outputPS6.txt | Pratik |  Kamran |
 | 2 | Design document - detailing algo design and time complexity | Anand | Pratik |
 | 3 | Deliverable preparation | Anand | Pratik  |

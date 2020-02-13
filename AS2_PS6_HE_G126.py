@@ -1,7 +1,9 @@
 """
 References
 - https://www.geeksforgeeks.org/dijkstras-algorithm-for-adjacency-list-representation-greedy-algo-8/
+- https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
 - https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/
+- https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
 
 """
 import sys
