@@ -5,7 +5,7 @@ M Tech - DSE DSAD Group-126 Assignment02 for SEM1
 ## need to clarify from faculty for name as assingment1 as it should be 2
 1. Assignment Submission name :  ASSIGNMENT1_DLH_GROUP126.zip
 2. design PS6_GROUP126.docx detailing your algorithm design and time complexity of the algorithm.
-3. Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions for the employee node, binary tree and the main body of the program.
+3. Zipped AS2_PS6_HE_GROUP126.py  package folder containing all the modules classes and functions and the main body of the program.
 4. inputPS6.txt file used for testing
 5. outputPS6.txt file generated while testing
 
