@@ -21,7 +21,7 @@ def print_src_dest(dist, src, dest, parent, vertices_map):
     path_list = []
     printPathString(parent, dest, vertices_map_invert, path_list)
     time_to_travel = dist[dest] * speed
-    # writing result to output.txt file for shartest path, distance, time
+    # writing result to output.txt file for shortest path, distance, time
     with open(out_file, 'w') as file:
         file.writelines(
             f"Shortest route from the hospital '{vertices_map_invert[int(src)]}' to reach the airport '{vertices_map_invert[int(dest)]}' is {path_list} "
@@ -119,9 +119,11 @@ class Graph:
             newHeapNode = minHeap.extractMin()
             u = newHeapNode[0]
 
-            # Traverse through all adjacent vertices of
-            # u (the extracted vertex) and update their
-            # distance values
+            # Break the loop when minimum distance vertex = destination node
+            if u == dest:
+                break
+
+            # Traverse through all adjacent vertices of u (the extracted vertex) and update their distance values
             for pCrawl in self.graph[u]:
 
                 v = pCrawl[0]
@@ -133,8 +135,7 @@ class Graph:
                     dist[v] = pCrawl[1] + dist[u]
                     self.parent[v] = u
 
-                    # update distance value
-                    # in min heap also
+                    # update distance value in min heap
                     minHeap.decreaseKey(v, dist[v])
 
         print_arr(dist, V)
